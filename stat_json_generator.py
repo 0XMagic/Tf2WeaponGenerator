@@ -1,9 +1,9 @@
 """
 does not run with the main script (don't import this!)
-this is used to generate assets/stats.json
+this is used to generate assets/data.json
 so much easier to do it procedurally!
 
-run this if you fucked up the stats file
+run this if you fucked up the data file
 """
 import os
 import json
