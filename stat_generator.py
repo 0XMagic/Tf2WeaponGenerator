@@ -109,7 +109,7 @@ class Generator:
 		_u = random.sample(sg, min(ng, len(sg)))
 		random.seed += 1
 		_u_ids = [x["uid"] for x in _u]
-		sb = [x for x in sb if x["uid"] not in _u_ids]
+		sb = [x for x in sb if x is not None and x["uid"] not in _u_ids]
 		_d = random.sample(sb, min(nb, len(sb)))
 		random.seed += 1
 		result.up = _u
