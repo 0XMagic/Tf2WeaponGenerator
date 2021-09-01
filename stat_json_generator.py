@@ -263,7 +263,7 @@ def main():
 	w_clip = exclude(
 			w_damage,
 			kw_join(w_damage,
-			        ["Flaregun", "Cleaver", "Baseball Bat", "Bow", "Flamethrower", "Minigun", "Melee", "Flame","circuit"])
+			        ["Flaregun", "Cleaver", "Baseball Bat", "Bow", "Flamethrower", "Minigun", "Melee", "Flame","circuit","Shield"])
 	)
 
 	w_explosive = exclude(
