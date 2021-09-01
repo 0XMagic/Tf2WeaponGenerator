@@ -3,21 +3,21 @@ import random
 import os
 
 
-def text_gen(d):
+def text_gen(d, x100 = False):
 	random.seed += 12
-	rs = random.randint(d["min"],d["max"]) * d["mul"]
-
-	return d["text"].format(rs)
+	rs = random.randint(d["min"], d["max"]) * d["mul"]
+	return d["text"].format(rs * (1 + 99 * x100))
 
 
 #object where the weapon is stored
 class ItemResult:
-	def __init__(self, cl, tp):
+	def __init__(self, cl, tp,x100=False):
 		self.w_class = cl
 		self.w_type = tp
 		self.up = []
 		self.down = []
 		self.seed = 0
+		self.x100 = x100
 
 	def export(self):
 		random.seed = self.seed
@@ -30,10 +30,10 @@ class ItemResult:
 				[x for x in self.down if not x["white text"]]
 		]
 		#the text colors are here
-		r_up = '\n'.join([text_gen(w) for w in _u[0]])
-		r_upw = '\n'.join([text_gen(w) for w in _u[1]])
-		r_do = '\n'.join([text_gen(w) for w in _d[0]])
-		r_dow = '\n'.join([text_gen(w) for w in _d[1]])
+		r_up = '\n'.join([text_gen(w,x100=self.x100) for w in _u[0]])
+		r_upw = '\n'.join([text_gen(w,x100=self.x100) for w in _u[1]])
+		r_do = '\n'.join([text_gen(w,x100=self.x100) for w in _d[0]])
+		r_dow = '\n'.join([text_gen(w,x100=self.x100) for w in _d[1]])
 
 		return {"Class": self.w_class, "Type": self.w_type, "text": [r_up, r_upw, r_do, r_dow]}
 
@@ -102,7 +102,8 @@ class Generator:
 
 		result = ItemResult(
 				wp.split(".")[0],
-				wp.split(".")[-1]
+				wp.split(".")[-1],
+				x100 = self.x100
 		)
 		random.seed = self.seed
 		result.seed = self.seed
