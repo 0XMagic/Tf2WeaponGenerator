@@ -96,8 +96,9 @@ class Generator:
 		sg = [s[x] for x in w[wp]["+"]]
 		sb = [s[x] for x in w[wp]["-"]]
 
-		ng = 1
-		nb = 1
+		#in the future, have this be linked to text boxes
+		ng = 3
+		nb = 3
 
 		result = ItemResult(
 				wp.split(".")[0],

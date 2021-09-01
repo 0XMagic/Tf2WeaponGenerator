@@ -7,7 +7,9 @@ run this if you fucked up the data file
 """
 import os
 import json
+
 uid = 0
+
 
 #probabillities for stats in each power mode
 class Weight:
@@ -66,7 +68,7 @@ class Number:
 	def export(self):
 		result = {
 				"+": {
-						"uid": self.uid,
+						"uid":        self.uid,
 						"white text": self.white_text,
 						"text":       self.up_text,
 						"min":        self.range_up[0],
@@ -75,7 +77,7 @@ class Number:
 						"weight":     self.weight_up.export()
 				},
 				"-": {
-						"uid":self.uid,
+						"uid":        self.uid,
 						"white text": self.white_text,
 						"text":       self.down_text,
 						"min":        self.range_down[0],
@@ -169,6 +171,8 @@ Number(name, *tags)
 
 doing string operations like this are slow af but the end user doesnt have to run it so whatever
 """
+
+
 def main():
 	item = [
 			"Scout.Primary.Scattergun",
@@ -182,7 +186,7 @@ def main():
 			"Soldier.Primary.Rocket Launcher",
 			"Soldier.Primary.Laser Launcher",
 			"Soldier.Secondary.Shotgun",
-			"Soldier.Secondary.Laser pistol",
+			"Soldier.Secondary.Indivisible particle smasher",
 			"Soldier.Secondary.Banner",
 			"Soldier.Secondary.Boots",
 			"Soldier.Melee.Shovel",
@@ -190,7 +194,7 @@ def main():
 			"Soldier.Melee.Whip",
 
 			"Pyro.Primary.Flamethrower",
-			"Pyro.Primary.Dragon",
+			"Pyro.Primary.Flame Launcher",
 			"Pyro.Secondary.Shotgun",
 			"Pyro.Secondary.Flaregun",
 			"Pyro.Secondary.Gas can",
@@ -251,46 +255,87 @@ def main():
 	])
 
 	w_projectile = kw_join(item, [
-			"Cleaver", "Jar", "Baseball Bat", "Launcher", "Bow", "Crossbow", "Bolt gun", "Laser pistol", "Short circuit",
+			"Cleaver", "Jar", "Baseball Bat", "Launcher", "Bow", "Crossbow", "Bolt gun", "Indivisible particle smasher",
+			"Short circuit",
 			"Gas can", "Flaregun"
 	])
 
 	w_clip = exclude(
 			w_damage,
-			kw_join(w_damage, ["Flaregun", "Cleaver", "Baseball Bat", "Bow", "Flamethrower", "Minigun", "Melee"])
+			kw_join(w_damage,
+			        ["Flaregun", "Cleaver", "Baseball Bat", "Bow", "Flamethrower", "Minigun", "Melee", "Flame","circuit"])
 	)
 
 	w_explosive = exclude(
 			w_projectile,
 			kw_join(w_damage, [
-					"Cleaver", "Baseball Bat", "Bow", "Crossbow", "Bolt gun", "Laser pistol",
+					"Cleaver", "Baseball Bat", "Bow", "Crossbow", "Bolt gun", "Indivisible particle smasher",
 					"Engineer.Primary.Laser gun"
 			])
 	)
 
 	generate(
 			Number("clip", *w_clip).up(
-					"Increased clip size by {}%", 1, 20, 10
+					"{}% increased clip size", 1, 20, 10
 			).down(
-					"Decreased clip size by {}%", 1, 9, 10
+					"{}% decreased clip size", 1, 9, 10
 			),
+
 			Number("damage", *w_damage).up(
-					"Increased damage by {}%", 1, 12, 10
+					"{}% damage bonus", 1, 12, 10
 			).down(
-					"Decreased damage by {}%", 1, 9, 10
+					"{}% damage reduction", 1, 9, 10
 			),
+
 			Number("rate", *exclude(w_damage, ["Pyro.Primary.Flamethrower"])).up(
-					"Increased fire rate by {}%", 1, 25, 10
+					"{}% Faster fire rate", 1, 25, 10
 			).down(
-					"Decreased fire rate by {}%", 1, 9, 10
+					"{}% Slower fire rate", 1, 9, 10
 			),
-			Number("hp_passive",*item).up(
+
+			Number("hp_passive", *item).up(
 					"{}% increased health on wearer", 2, 10, 5
 			).down(
 					"{}% decreased health on wearer", 1, 5, 10
-			)
+			),
+
+			Number("hp_passive_regen", *item).up(
+					"+{} health regenerated per second", 2, 10, 5
+			),
+
+			Number("flame_life", *kw_join(item, ["Pyro.Primary"])).up(
+					"+{}% flame particle life", 1, 20, 10
+			).down(
+					"-{}% flame particle life", 1, 9, 10
+			),
+
+			Number("flame_speed", *kw_join(item, ["Pyro.Primary"])).up(
+					"+{}% flame speed", 1, 20, 10
+			).down(
+					"-{}% flame speed", 1, 9, 10
+			),
+
+			Number("flame_size", *kw_join(item, ["Pyro.Primary"])).up(
+					"+{}% flame size", 1, 20, 10
+			).down(
+					"-{}% flame size", 1, 9, 10
+			),
+
+			Number("whole_clip", *w_clip).up(
+					"Fires the whole clip at once!", 1, 2, 3
+			),
+
+			Number("beggars", *w_clip).up(
+					"Hold Fire to load clip\nRelease to unleash a barrage", 1, 2, 3
+			),
+			Number("bullets_per_shot_multi", *kw_join(item, ["Shotgun", "Minigun", "Scattergun"])).up(
+					"+{}% bullets per shot", 1, 8, 25
+			).down(
+					"-{}% bullets per shot", 1, 9, 10
+			),
 
 	)
+
 
 if __name__ == "__main__":
 	main()

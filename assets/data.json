@@ -5,13 +5,21 @@
     "0",
     "2",
     "4",
-    "6"
+    "6",
+    "8",
+    "16",
+    "17",
+    "18"
    ],
    "-": [
     "1",
     "3",
     "5",
-    "7"
+    "7",
+    "9",
+    "9",
+    "9",
+    "19"
    ]
   },
   "Scout.Secondary.Pistol": {
@@ -19,13 +27,19 @@
     "0",
     "2",
     "4",
-    "6"
+    "6",
+    "8",
+    "16",
+    "17"
    ],
    "-": [
     "1",
     "3",
     "5",
-    "7"
+    "7",
+    "9",
+    "9",
+    "9"
    ]
   },
   "Soldier.Primary.Rocket Launcher": {
@@ -33,13 +47,19 @@
     "0",
     "2",
     "4",
-    "6"
+    "6",
+    "8",
+    "16",
+    "17"
    ],
    "-": [
     "1",
     "3",
     "5",
-    "7"
+    "7",
+    "9",
+    "9",
+    "9"
    ]
   },
   "Soldier.Primary.Laser Launcher": {
@@ -47,13 +67,19 @@
     "0",
     "2",
     "4",
-    "6"
+    "6",
+    "8",
+    "16",
+    "17"
    ],
    "-": [
     "1",
     "3",
     "5",
-    "7"
+    "7",
+    "9",
+    "9",
+    "9"
    ]
   },
   "Soldier.Secondary.Shotgun": {
@@ -61,41 +87,41 @@
     "0",
     "2",
     "4",
-    "6"
+    "6",
+    "8",
+    "16",
+    "17",
+    "18"
    ],
    "-": [
     "1",
     "3",
     "5",
-    "7"
+    "7",
+    "9",
+    "9",
+    "9",
+    "19"
    ]
   },
-  "Soldier.Secondary.Laser pistol": {
+  "Soldier.Secondary.Indivisible particle smasher": {
    "+": [
     "0",
     "2",
     "4",
-    "6"
+    "6",
+    "8",
+    "16",
+    "17"
    ],
    "-": [
     "1",
     "3",
     "5",
-    "7"
-   ]
-  },
-  "Pyro.Primary.Dragon": {
-   "+": [
-    "0",
-    "2",
-    "4",
-    "6"
-   ],
-   "-": [
-    "1",
-    "3",
-    "5",
-    "7"
+    "7",
+    "9",
+    "9",
+    "9"
    ]
   },
   "Pyro.Secondary.Shotgun": {
@@ -103,13 +129,21 @@
     "0",
     "2",
     "4",
-    "6"
+    "6",
+    "8",
+    "16",
+    "17",
+    "18"
    ],
    "-": [
     "1",
     "3",
     "5",
-    "7"
+    "7",
+    "9",
+    "9",
+    "9",
+    "19"
    ]
   },
   "Pyro.Secondary.Gas can": {
@@ -117,13 +151,19 @@
     "0",
     "2",
     "4",
-    "6"
+    "6",
+    "8",
+    "16",
+    "17"
    ],
    "-": [
     "1",
     "3",
     "5",
-    "7"
+    "7",
+    "9",
+    "9",
+    "9"
    ]
   },
   "Demoman.Primary.Grenade Launcher": {
@@ -131,13 +171,19 @@
     "0",
     "2",
     "4",
-    "6"
+    "6",
+    "8",
+    "16",
+    "17"
    ],
    "-": [
     "1",
     "3",
     "5",
-    "7"
+    "7",
+    "9",
+    "9",
+    "9"
    ]
   },
   "Demoman.Secondary.Stickybomb Launcher": {
@@ -145,13 +191,19 @@
     "0",
     "2",
     "4",
-    "6"
+    "6",
+    "8",
+    "16",
+    "17"
    ],
    "-": [
     "1",
     "3",
     "5",
-    "7"
+    "7",
+    "9",
+    "9",
+    "9"
    ]
   },
   "Demoman.Secondary.Shield": {
@@ -159,13 +211,19 @@
     "0",
     "2",
     "4",
-    "6"
+    "6",
+    "8",
+    "16",
+    "17"
    ],
    "-": [
     "1",
     "3",
     "5",
-    "7"
+    "7",
+    "9",
+    "9",
+    "9"
    ]
   },
   "Heavy.Secondary.Shotgun": {
@@ -173,13 +231,21 @@
     "0",
     "2",
     "4",
-    "6"
+    "6",
+    "8",
+    "16",
+    "17",
+    "18"
    ],
    "-": [
     "1",
     "3",
     "5",
-    "7"
+    "7",
+    "9",
+    "9",
+    "9",
+    "19"
    ]
   },
   "Engineer.Primary.Shotgun": {
@@ -187,13 +253,21 @@
     "0",
     "2",
     "4",
-    "6"
+    "6",
+    "8",
+    "16",
+    "17",
+    "18"
    ],
    "-": [
     "1",
     "3",
     "5",
-    "7"
+    "7",
+    "9",
+    "9",
+    "9",
+    "19"
    ]
   },
   "Engineer.Primary.Laser gun": {
@@ -201,13 +275,19 @@
     "0",
     "2",
     "4",
-    "6"
+    "6",
+    "8",
+    "16",
+    "17"
    ],
    "-": [
     "1",
     "3",
     "5",
-    "7"
+    "7",
+    "9",
+    "9",
+    "9"
    ]
   },
   "Engineer.Primary.Bolt gun": {
@@ -215,27 +295,19 @@
     "0",
     "2",
     "4",
-    "6"
+    "6",
+    "8",
+    "16",
+    "17"
    ],
    "-": [
     "1",
     "3",
     "5",
-    "7"
-   ]
-  },
-  "Engineer.Secondary.Short circuit": {
-   "+": [
-    "0",
-    "2",
-    "4",
-    "6"
-   ],
-   "-": [
-    "1",
-    "3",
-    "5",
-    "7"
+    "7",
+    "9",
+    "9",
+    "9"
    ]
   },
   "Engineer.Secondary.Pistol": {
@@ -243,13 +315,19 @@
     "0",
     "2",
     "4",
-    "6"
+    "6",
+    "8",
+    "16",
+    "17"
    ],
    "-": [
     "1",
     "3",
     "5",
-    "7"
+    "7",
+    "9",
+    "9",
+    "9"
    ]
   },
   "Medic.Primary.Needle gun": {
@@ -257,13 +335,19 @@
     "0",
     "2",
     "4",
-    "6"
+    "6",
+    "8",
+    "16",
+    "17"
    ],
    "-": [
     "1",
     "3",
     "5",
-    "7"
+    "7",
+    "9",
+    "9",
+    "9"
    ]
   },
   "Medic.Primary.Crossbow": {
@@ -271,13 +355,19 @@
     "0",
     "2",
     "4",
-    "6"
+    "6",
+    "8",
+    "16",
+    "17"
    ],
    "-": [
     "1",
     "3",
     "5",
-    "7"
+    "7",
+    "9",
+    "9",
+    "9"
    ]
   },
   "Sniper.Primary.Sniper Rifle": {
@@ -285,13 +375,19 @@
     "0",
     "2",
     "4",
-    "6"
+    "6",
+    "8",
+    "16",
+    "17"
    ],
    "-": [
     "1",
     "3",
     "5",
-    "7"
+    "7",
+    "9",
+    "9",
+    "9"
    ]
   },
   "Sniper.Secondary.Smg": {
@@ -299,13 +395,19 @@
     "0",
     "2",
     "4",
-    "6"
+    "6",
+    "8",
+    "16",
+    "17"
    ],
    "-": [
     "1",
     "3",
     "5",
-    "7"
+    "7",
+    "9",
+    "9",
+    "9"
    ]
   },
   "Spy.Primary.Revolver": {
@@ -313,363 +415,479 @@
     "0",
     "2",
     "4",
-    "6"
+    "6",
+    "8",
+    "16",
+    "17"
    ],
    "-": [
     "1",
     "3",
     "5",
-    "7"
+    "7",
+    "9",
+    "9",
+    "9"
    ]
   },
   "Scout.Secondary.Cleaver": {
    "+": [
     "2",
     "4",
-    "6"
+    "6",
+    "8"
    ],
    "-": [
     "3",
     "5",
-    "7"
+    "7",
+    "9"
    ]
   },
   "Scout.Melee.Bat": {
    "+": [
     "2",
     "4",
-    "6"
+    "6",
+    "8"
    ],
    "-": [
     "3",
     "5",
-    "7"
+    "7",
+    "9"
    ]
   },
   "Scout.Melee.Baseball Bat": {
    "+": [
     "2",
     "4",
-    "6"
+    "6",
+    "8"
    ],
    "-": [
     "3",
     "5",
-    "7"
+    "7",
+    "9"
    ]
   },
   "Soldier.Melee.Shovel": {
    "+": [
     "2",
     "4",
-    "6"
+    "6",
+    "8"
    ],
    "-": [
     "3",
     "5",
-    "7"
+    "7",
+    "9"
    ]
   },
   "Soldier.Melee.Pickaxe": {
    "+": [
     "2",
     "4",
-    "6"
+    "6",
+    "8"
    ],
    "-": [
     "3",
     "5",
-    "7"
+    "7",
+    "9"
    ]
   },
   "Soldier.Melee.Whip": {
    "+": [
     "2",
     "4",
-    "6"
+    "6",
+    "8"
    ],
    "-": [
     "3",
     "5",
-    "7"
+    "7",
+    "9"
    ]
   },
   "Pyro.Primary.Flamethrower": {
    "+": [
     "2",
-    "6"
+    "6",
+    "8",
+    "10",
+    "12",
+    "14"
    ],
    "-": [
     "3",
-    "7"
+    "7",
+    "9",
+    "11",
+    "13",
+    "15"
+   ]
+  },
+  "Pyro.Primary.Flame Launcher": {
+   "+": [
+    "2",
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "14"
+   ],
+   "-": [
+    "3",
+    "5",
+    "7",
+    "9",
+    "11",
+    "13",
+    "15"
    ]
   },
   "Pyro.Secondary.Flaregun": {
    "+": [
     "2",
     "4",
-    "6"
+    "6",
+    "8"
    ],
    "-": [
     "3",
     "5",
-    "7"
+    "7",
+    "9"
    ]
   },
   "Pyro.Melee.Axe": {
    "+": [
     "2",
     "4",
-    "6"
+    "6",
+    "8"
    ],
    "-": [
     "3",
     "5",
-    "7"
+    "7",
+    "9"
    ]
   },
   "Pyro.Melee.Hammer": {
    "+": [
     "2",
     "4",
-    "6"
+    "6",
+    "8"
    ],
    "-": [
     "3",
     "5",
-    "7"
+    "7",
+    "9"
    ]
   },
   "Demoman.Melee.Sword": {
    "+": [
     "2",
     "4",
-    "6"
+    "6",
+    "8"
    ],
    "-": [
     "3",
     "5",
-    "7"
+    "7",
+    "9"
    ]
   },
   "Demoman.Melee.Bottle": {
    "+": [
     "2",
     "4",
-    "6"
+    "6",
+    "8"
    ],
    "-": [
     "3",
     "5",
-    "7"
+    "7",
+    "9"
    ]
   },
   "Heavy.Primary.Minigun": {
    "+": [
     "2",
     "4",
-    "6"
+    "6",
+    "8",
+    "18"
    ],
    "-": [
     "3",
     "5",
-    "7"
+    "7",
+    "9",
+    "19"
    ]
   },
   "Heavy.Melee.Fists": {
    "+": [
     "2",
     "4",
-    "6"
+    "6",
+    "8"
    ],
    "-": [
     "3",
     "5",
-    "7"
+    "7",
+    "9"
+   ]
+  },
+  "Engineer.Secondary.Short circuit": {
+   "+": [
+    "2",
+    "4",
+    "6",
+    "8"
+   ],
+   "-": [
+    "3",
+    "5",
+    "7",
+    "9"
    ]
   },
   "Engineer.Melee.Wrench": {
    "+": [
     "2",
     "4",
-    "6"
+    "6",
+    "8"
    ],
    "-": [
     "3",
     "5",
-    "7"
+    "7",
+    "9"
    ]
   },
   "Engineer.Melee.Robot arm": {
    "+": [
     "2",
     "4",
-    "6"
+    "6",
+    "8"
    ],
    "-": [
     "3",
     "5",
-    "7"
+    "7",
+    "9"
    ]
   },
   "Medic.Melee.Bonesaw": {
    "+": [
     "2",
     "4",
-    "6"
+    "6",
+    "8"
    ],
    "-": [
     "3",
     "5",
-    "7"
+    "7",
+    "9"
    ]
   },
   "Sniper.Primary.Bow": {
    "+": [
     "2",
     "4",
-    "6"
+    "6",
+    "8"
    ],
    "-": [
     "3",
     "5",
-    "7"
+    "7",
+    "9"
    ]
   },
   "Sniper.Melee.Kukri": {
    "+": [
     "2",
     "4",
-    "6"
+    "6",
+    "8"
    ],
    "-": [
     "3",
     "5",
-    "7"
+    "7",
+    "9"
    ]
   },
   "Spy.Melee.Knife": {
    "+": [
     "2",
     "4",
-    "6"
+    "6",
+    "8"
    ],
    "-": [
     "3",
     "5",
-    "7"
+    "7",
+    "9"
    ]
   },
   "Scout.Secondary.Jar": {
    "+": [
-    "6"
+    "6",
+    "8"
    ],
    "-": [
-    "7"
+    "7",
+    "9"
    ]
   },
   "Scout.Secondary.Lunchbox": {
    "+": [
-    "6"
+    "6",
+    "8"
    ],
    "-": [
-    "7"
+    "7",
+    "9"
    ]
   },
   "Soldier.Secondary.Banner": {
    "+": [
-    "6"
+    "6",
+    "8"
    ],
    "-": [
-    "7"
+    "7",
+    "9"
    ]
   },
   "Soldier.Secondary.Boots": {
    "+": [
-    "6"
+    "6",
+    "8"
    ],
    "-": [
-    "7"
+    "7",
+    "9"
    ]
   },
   "Demoman.Primary.Boots": {
    "+": [
-    "6"
+    "6",
+    "8"
    ],
    "-": [
-    "7"
+    "7",
+    "9"
    ]
   },
   "Heavy.Secondary.Lunchbox": {
    "+": [
-    "6"
+    "6",
+    "8"
    ],
    "-": [
-    "7"
+    "7",
+    "9"
    ]
   },
   "Engineer.Secondary.Wrangler": {
    "+": [
-    "6"
+    "6",
+    "8"
    ],
    "-": [
-    "7"
+    "7",
+    "9"
    ]
   },
   "Engineer.PDA.PDA": {
    "+": [
-    "6"
+    "6",
+    "8"
    ],
    "-": [
-    "7"
+    "7",
+    "9"
    ]
   },
   "Medic.Secondary.Medigun": {
    "+": [
-    "6"
+    "6",
+    "8"
    ],
    "-": [
-    "7"
+    "7",
+    "9"
    ]
   },
   "Sniper.Secondary.Backpack": {
    "+": [
-    "6"
+    "6",
+    "8"
    ],
    "-": [
-    "7"
+    "7",
+    "9"
    ]
   },
   "Sniper.Secondary.Jar": {
    "+": [
-    "6"
+    "6",
+    "8"
    ],
    "-": [
-    "7"
+    "7",
+    "9"
    ]
   },
   "Spy.Secondary.Sapper": {
    "+": [
-    "6"
+    "6",
+    "8"
    ],
    "-": [
-    "7"
+    "7",
+    "9"
    ]
   },
   "Spy.PDA.Watch": {
    "+": [
-    "6"
+    "6",
+    "8"
    ],
    "-": [
-    "7"
+    "7",
+    "9"
    ]
   },
   "Spy.PDA.Ringer": {
    "+": [
-    "6"
+    "6",
+    "8"
    ],
    "-": [
-    "7"
+    "7",
+    "9"
    ]
   }
  },
@@ -677,7 +895,7 @@
   "0": {
    "uid": 1,
    "white text": false,
-   "text": "Increased clip size by {}%",
+   "text": "{}% increased clip size",
    "min": 1,
    "max": 20,
    "mul": 10,
@@ -692,7 +910,7 @@
   "1": {
    "uid": 1,
    "white text": false,
-   "text": "Decreased clip size by {}%",
+   "text": "{}% decreased clip size",
    "min": 1,
    "max": 9,
    "mul": 10,
@@ -707,7 +925,7 @@
   "2": {
    "uid": 2,
    "white text": false,
-   "text": "Increased damage by {}%",
+   "text": "{}% damage bonus",
    "min": 1,
    "max": 12,
    "mul": 10,
@@ -722,7 +940,7 @@
   "3": {
    "uid": 2,
    "white text": false,
-   "text": "Decreased damage by {}%",
+   "text": "{}% damage reduction",
    "min": 1,
    "max": 9,
    "mul": 10,
@@ -737,7 +955,7 @@
   "4": {
    "uid": 3,
    "white text": false,
-   "text": "Increased fire rate by {}%",
+   "text": "{}% Faster fire rate",
    "min": 1,
    "max": 25,
    "mul": 10,
@@ -752,7 +970,7 @@
   "5": {
    "uid": 3,
    "white text": false,
-   "text": "Decreased fire rate by {}%",
+   "text": "{}% Slower fire rate",
    "min": 1,
    "max": 9,
    "mul": 10,
@@ -785,6 +1003,172 @@
    "text": "{}% decreased health on wearer",
    "min": 1,
    "max": 5,
+   "mul": 10,
+   "weight": {
+    "what?": 1,
+    "weak": 1,
+    "normal": 1,
+    "strong": 1,
+    "ridiculous": 0
+   }
+  },
+  "8": {
+   "uid": 5,
+   "white text": false,
+   "text": "+{} health regenerated per second",
+   "min": 2,
+   "max": 10,
+   "mul": 5,
+   "weight": {
+    "what?": 0,
+    "weak": 1,
+    "normal": 1,
+    "strong": 1,
+    "ridiculous": 1
+   }
+  },
+  "9": null,
+  "10": {
+   "uid": 6,
+   "white text": false,
+   "text": "+{}% flame particle life",
+   "min": 1,
+   "max": 20,
+   "mul": 10,
+   "weight": {
+    "what?": 0,
+    "weak": 1,
+    "normal": 1,
+    "strong": 1,
+    "ridiculous": 1
+   }
+  },
+  "11": {
+   "uid": 6,
+   "white text": false,
+   "text": "-{}% flame particle life",
+   "min": 1,
+   "max": 9,
+   "mul": 10,
+   "weight": {
+    "what?": 1,
+    "weak": 1,
+    "normal": 1,
+    "strong": 1,
+    "ridiculous": 0
+   }
+  },
+  "12": {
+   "uid": 7,
+   "white text": false,
+   "text": "+{}% flame speed",
+   "min": 1,
+   "max": 20,
+   "mul": 10,
+   "weight": {
+    "what?": 0,
+    "weak": 1,
+    "normal": 1,
+    "strong": 1,
+    "ridiculous": 1
+   }
+  },
+  "13": {
+   "uid": 7,
+   "white text": false,
+   "text": "-{}% flame speed",
+   "min": 1,
+   "max": 9,
+   "mul": 10,
+   "weight": {
+    "what?": 1,
+    "weak": 1,
+    "normal": 1,
+    "strong": 1,
+    "ridiculous": 0
+   }
+  },
+  "14": {
+   "uid": 8,
+   "white text": false,
+   "text": "+{}% flame size",
+   "min": 1,
+   "max": 20,
+   "mul": 10,
+   "weight": {
+    "what?": 0,
+    "weak": 1,
+    "normal": 1,
+    "strong": 1,
+    "ridiculous": 1
+   }
+  },
+  "15": {
+   "uid": 8,
+   "white text": false,
+   "text": "-{}% flame size",
+   "min": 1,
+   "max": 9,
+   "mul": 10,
+   "weight": {
+    "what?": 1,
+    "weak": 1,
+    "normal": 1,
+    "strong": 1,
+    "ridiculous": 0
+   }
+  },
+  "16": {
+   "uid": 9,
+   "white text": false,
+   "text": "Fires the whole clip at once!",
+   "min": 1,
+   "max": 2,
+   "mul": 3,
+   "weight": {
+    "what?": 0,
+    "weak": 1,
+    "normal": 1,
+    "strong": 1,
+    "ridiculous": 1
+   }
+  },
+  "17": {
+   "uid": 10,
+   "white text": false,
+   "text": "Hold Fire to load clip\nRelease to unleash a barrage",
+   "min": 1,
+   "max": 2,
+   "mul": 3,
+   "weight": {
+    "what?": 0,
+    "weak": 1,
+    "normal": 1,
+    "strong": 1,
+    "ridiculous": 1
+   }
+  },
+  "18": {
+   "uid": 11,
+   "white text": false,
+   "text": "+{}% bullets per shot",
+   "min": 1,
+   "max": 8,
+   "mul": 25,
+   "weight": {
+    "what?": 0,
+    "weak": 1,
+    "normal": 1,
+    "strong": 1,
+    "ridiculous": 1
+   }
+  },
+  "19": {
+   "uid": 11,
+   "white text": false,
+   "text": "-{}% bullets per shot",
+   "min": 1,
+   "max": 9,
    "mul": 10,
    "weight": {
     "what?": 1,
