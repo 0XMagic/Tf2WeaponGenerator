@@ -263,7 +263,8 @@ def main():
 	w_clip = exclude(
 			w_damage,
 			kw_join(w_damage,
-			        ["Flaregun", "Cleaver", "Baseball Bat", "Bow", "Flamethrower", "Minigun", "Melee", "Flame","circuit","Shield"])
+			        ["Flaregun", "Cleaver", "Baseball Bat", "Bow", "Flamethrower", "Minigun", "Melee", "Flame",
+			         "circuit", "Shield","Gas"])
 	)
 
 	w_explosive = exclude(
@@ -287,7 +288,7 @@ def main():
 					"{}% damage reduction", 1, 9, 10
 			),
 
-			Number("rate", *exclude(w_damage, ["Pyro.Primary.Flamethrower"])).up(
+			Number("rate", *exclude(w_damage, ["Pyro.Primary.Flamethrower", "Demoman.Secondary.Shield"])).up(
 					"{}% Faster fire rate", 1, 25, 10
 			).down(
 					"{}% Slower fire rate", 1, 9, 10
@@ -332,7 +333,9 @@ def main():
 					"+{}% bullets per shot", 1, 8, 25
 			).down(
 					"-{}% bullets per shot", 1, 9, 10
-			),
+			), Number("bullets_per_shot", *exclude(w_bullets, kw_join(item, ["Shotgun", "Minigun", "Scattergun"]))).up(
+					"+{}% bullets per shot", 1, 8, 25
+			)
 
 	)
 

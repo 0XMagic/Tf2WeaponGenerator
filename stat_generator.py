@@ -4,7 +4,7 @@ import os
 
 
 def text_gen(d):
-	random.seed += 1
+	random.seed += 12
 	rs = random.randint(d["min"],d["max"]) * d["mul"]
 
 	return d["text"].format(rs)
@@ -108,11 +108,11 @@ class Generator:
 		result.seed = self.seed
 
 		_u = random.sample(sg, min(ng, len(sg)))
-		random.seed += 1
+		random.seed += 21
 		_u_ids = [x["uid"] for x in _u]
 		sb = [x for x in sb if x is not None and x["uid"] not in _u_ids]
 		_d = random.sample(sb, min(nb, len(sb)))
-		random.seed += 1
+		random.seed += 12
 		result.up = _u
 		result.down = _d
 		self.recent = result
